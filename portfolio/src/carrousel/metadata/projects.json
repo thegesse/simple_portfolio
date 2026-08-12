@@ -1,0 +1,27 @@
+[
+  {
+    "id": "notSpot",
+    "github": "https://github.com/thegesse/projet-final",
+    "technologies": ["Dart", "java", "flutter", "spring boot", "postgreSQL", "Docker"]
+  },
+  {
+    "id": "terminalPortfolio",
+    "github": "https://github.com/thegesse/Portfolio",
+    "technologies": ["java", "javaScript", "HTML5", "CSS3", "Docker", "Render"]
+  },
+  {
+    "id": "suggestibility",
+    "github": "https://github.com/devilishlyney/jerome-le-guen-project",
+    "technologies": ["javaScript", "Electron", "HTML5", "CSS3"]
+  },
+  {
+    "id": "codBlast",
+    "github": "https://github.com/maximemlly/codblast",
+    "technologies": ["javaScript", "HTML5", "CSS3", "Canvas API"]
+  },
+  {
+    "id": "email",
+    "github": "https://github.com/thegesse/email-sender-CLI",
+    "technologies": ["C", "libpq", "Supabase"]
+  }
+]

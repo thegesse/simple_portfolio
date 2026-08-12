@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "title": "Hello, I'm Esteban Quillerier",
+    "subtitle": "Fullstack web developer student."
+  },
+
+  "presentation": {
+    "text": "I'm a second year full stack web developer student, based in Orleans France.\n I attend a university based in the city center called Coda. I always strive to get better with the tools I have but also want to learn about new things and constantly improve and become more and more polyvalent.\n Also looking for a internship to help me achieve my goals of progressing and gaining experience in tech, I look forward to working or talking with you."
+  },
+
+  "about": {
+    "about": "About",
+    "about_me": "I'm a second year student at Coda school, I live and study in France but I would enjoy working and living abroad depending on the opportunity.\n I already speak English and French fluently and am working towards improving my Tagalog I'm a big fan of traveling and learning about different cultures as well.\n My hobbies include, programming notably backend development, microcontrollers, painting, 3d modelling, arachnology(Chromatopelma cyaneopubescens my beloved) and traveling.",
+    "tech_stack": "Tech stack",
+    "languages": "Languages",
+    "frontend": "Frontend",
+    "frameworks": "Frameworks",
+    "database": "Database",
+    "tools_and_environment": "Tools and Environments"
+  },
+  "project":{
+    "projects": "Projects",
+    "text": "Here are a few of the projects I have worked on over the course of the past year:",
+
+    "notSpot": {
+      "title": "NotSpot",
+      "description": "Online and downloadable streaming service app, relying on community input to grow its musical selection.\nMade as a project for my first year final exam and used to validate my first year."
+    },
+    "terminalPortfolio": {
+      "title": "Terminal portfolio",
+      "description": "My first portfolio made with JS to resemble and function like a terminal to dispense information about me.\nMade while learning JavaScript and used to learn more about animations and handling user inputs.\nAlso contains easter eggs, my first deployed website using Render and Docker. "
+    },
+    "suggestibility": {
+      "title": "Suggestibility study application",
+      "description": "App commissioned by a psychologist to set up tests to evaluate suggestibility in children.\nMade with a group of 4 other people and delivered in time.\n And respecting all the constraints imposed by the client,\n and imposed by the law regarding confidential information on patients.\nAlso made portable to distribute and modulable,\n enabling the user to change the test questions or contents to suit their needs."
+    },
+    "codBlast": {
+      "title": "Cod'Blast",
+      "description": "GameJam project submitted as a Javascript final exam. Made with a group of 2 other people, made to play like BlockBlast, deployed on github pages."
+    },
+    "email": {
+      "title": "Email sender CLI",
+      "description": "CLI made to send out emails in mass to user registered to a database.\n Made entirely in C for speed and used to send updates for NotSpot updates"
+    }
+  },
+  "contact":{
+    "contact_me": "Contact me",
+    "text": "Here are a few ways of joining me",
+    "form-text": "For easy contact please fill out the form below.",
+    "first_name": "First name",
+    "last_name": "Last name",
+    "email": "Email",
+    "email_placeholder": "your_name@example.com",
+    "message": "Message",
+    "message_placeholder": "Leave me a message....",
+    "privacy": "I agree to the privacy policy.",
+    "send": "Send message",
+    "sending": "Sending....",
+    "success_title": "Message sent",
+    "success_text": "Thanks for getting in touch. I'll get back to you as soon as possible.",
+    "socials": "Here are a few of my socials"
+  }
+}
