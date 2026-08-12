@@ -53,6 +53,22 @@ h4 { margin-bottom: 14px; font-size: .8rem; color: var(--muted); letter-spacing:
 
 .projects { display: grid; grid-template-columns: 42px minmax(0, 1fr) 42px; gap: 12px; align-items: center; }
 .projects article { min-width: 0; padding: 28px; text-align: left; }
+.project-card { animation: project-card-enter 460ms cubic-bezier(.22, 1, .36, 1) both; }
+.project-card-next { --project-slide-offset: 28px; }
+.project-card-previous { --project-slide-offset: -28px; }
+@keyframes project-card-enter {
+  from { opacity: 0; transform: translateX(var(--project-slide-offset, 0)) scale(.985); }
+  to { opacity: 1; transform: translateX(0); }
+}
+.project-card > * { animation: project-card-content-enter 380ms cubic-bezier(.22, 1, .36, 1) both; }
+.project-card > :nth-child(1) { animation-delay: 70ms; }
+.project-card > :nth-child(2) { animation-delay: 120ms; }
+.project-card > :nth-child(3) { animation-delay: 170ms; }
+.project-card > :nth-child(4) { animation-delay: 220ms; }
+@keyframes project-card-content-enter {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 .projects article h3 { margin-bottom: 12px; }
 .projects article p { margin-bottom: 20px; color: #475467; line-height: 1.65; white-space: pre-line; }
 .carousel-arrow { display: inline-grid; width: 42px; height: 42px; place-items: center; padding: 0; border: 1px solid var(--border-strong); border-radius: 8px; color: #475467; background: var(--surface); font-size: 1.3rem; line-height: 1; cursor: pointer; transition: color 160ms ease, border-color 160ms ease, background-color 160ms ease; }
@@ -72,6 +88,7 @@ h4 { margin-bottom: 14px; font-size: .8rem; color: var(--muted); letter-spacing:
 @media (prefers-reduced-motion: reduce) {
   .projects .carrousel-indicator button { transition: none; }
   .projects .carrousel-indicator button.active { animation: none; }
+  .project-card, .project-card > * { animation: none; }
 }
 .technologies { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
 .projects article a { display: inline-flex; align-items: center; min-height: 38px; padding: 8px 12px; border: 1px solid var(--slate); border-radius: 8px; color: #fff; background: var(--slate); font-size: .875rem; font-weight: 600; text-decoration: none; transition: background-color 160ms ease, border-color 160ms ease; }
@@ -115,6 +132,7 @@ h4 { margin-bottom: 14px; font-size: .8rem; color: var(--muted); letter-spacing:
   .techStack > div, .techStack > div:nth-child(even) { border-right: 0; border-bottom: 1px solid var(--border); }
   .techStack > div:last-child { border-bottom: 0; }
   .projects { grid-template-columns: 38px minmax(0, 1fr) 38px; gap: 8px; }
+  .projects { touch-action: pan-y; }
   .carousel-arrow { width: 38px; height: 38px; }
   .form-row { grid-template-columns: 1fr; gap: 18px; }
   .contact-form, .socials { padding: 22px; }
