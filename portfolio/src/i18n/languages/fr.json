@@ -7,50 +7,50 @@
   },
   "hero": {
     "title": "Bonjour, je suis Esteban Quillerier",
-    "subtitle": "Étudiant en développement web full-stack."
+    "subtitle": "Étudiant développeur web full-stack, disponible pour faire de l'alternance et des missions freelance."
   },
 
   "presentation": {
-    "text": "Je suis étudiant en deuxième année de développement web full stack, basé à Orléans, en France.\n J’étudie à l’école Coda, située en centre-ville. Je cherche toujours à m’améliorer avec les outils dont je dispose, mais aussi à découvrir de nouvelles choses afin de devenir de plus en plus polyvalent.\n Je recherche également une alternance pour progresser et acquérir de l’expérience dans le domaine de l’informatique. J’ai hâte de travailler avec vous ou simplement d’échanger avec vous."
+    "text": "Je suis étudiant en deuxième année de développement web full-stack, basé à Orléans, en France.\nJ’aime créer des applications, des backends et bases de données jusqu’aux interfaces utilisateur, et je cherche toujours à développer mes compétences techniques.\nJe recherche actuellement un stage où je pourrais contribuer à des projets, apprendre auprès de développeurs expérimentés et acquérir une expérience professionnelle. Je suis également ouvert aux missions freelance et aux petits projets de développement web."
   },
 
   "about": {
     "about": "À propos",
-    "about_me": "Je suis étudiant en deuxième année à l’école Coda. Je vis et étudie en France, mais j’aimerais un jour travailler et vivre à l’étranger.\n Je maîtrise déjà l’anglais et le français et je travaille également à améliorer mon tagalog. Je suis passionné par les voyages et la découverte de différentes cultures. Mes loisirs incluent la programmation, notamment le développement back-end, les microcontrôleurs, la peinture, la modélisation 3D, l’arachnologie (Chromatopelma cyaneopubescens, ma préférée) et les voyages.",
-    "tech_stack": "Pile technologique",
-    "languages": "Langages informatiques",
+    "about_me": "Je suis étudiant en deuxième année de développement web full-stack à Coda, à Orléans, en France. Je m’intéresse autant au développement back-end qu’au développement front-end et j’aime comprendre comment les différentes parties d’une application fonctionnent ensemble.\nJ’ai travaillé seul et en équipe sur des projets comprenant des applications web, des bases de données, des API, des applications de bureau et des outils en ligne de commande. Je suis à l’aise avec l’apprentissage de nouvelles technologies lorsqu’un projet le demande et j’aime résoudre des problèmes techniques pour trouver des solutions pratiques.\nJe recherche actuellement un stage afin d’acquérir de l’expérience. Je m’intéresse également aux missions freelance pour lesquelles je pourrais contribuer à créer ou à améliorer des applications web.\nEn dehors du développement, j’aime voyager, découvrir différentes cultures, peindre, faire de la modélisation 3D, utiliser des microcontrôleurs et étudier l’arachnologie. Je travaille également à améliorer mon tagalog.",
+    "tech_stack": "Stack technologique",
+    "languages": "Langages de programmation",
     "frontend": "Front-end",
-    "frameworks": "Frameworks",
-    "database": "Base de données",
-    "tools_and_environment": "Outils et environnements de travail"
+    "backend": "Back-end",
+    "database": "Bases de données",
+    "tools_and_environment": "Outils et environnements"
   },
   "project": {
     "projects": "Projets",
-    "text": "Voici quelques projets sur lesquels j’ai travaillé au cours de l’année passée :",
+    "text": "Quelques projets sur lesquels j’ai travaillé au cours de ma première année d’études et dans le cadre de mon développement personnel. Ils couvrent le développement web, les systèmes back-end, les applications de bureau, le développement de jeux et les outils en ligne de commande.",
     "notSpot": {
       "title": "NotSpot",
-      "description": "Application de streaming musical disponible en ligne et au téléchargement, qui s’appuie sur les contributions de la communauté pour enrichir sa sélection musicale.\n Réalisée pour mon projet de fin de première année et utilisée pour valider celle-ci."
+      "description": "Application de streaming musical réalisée comme projet de fin de première année. Elle associe une interface utilisateur à des services back-end et une base de données pour gérer le catalogue musical de la plateforme.\n\nCe projet m’a permis de travailler avec Dart, Flutter, Java, Spring Boot, PostgreSQL et Docker."
     },
     "terminalPortfolio": {
       "title": "Portfolio terminal",
-      "description": "Mon premier portfolio, réalisé en JavaScript, conçu pour ressembler à un terminal et fonctionner comme tel afin de présenter des informations sur moi.\n Réalisé pendant mon apprentissage de JavaScript, il m’a permis d’en apprendre davantage sur les animations et la gestion des entrées utilisateur.\n Il contient aussi des easter eggs et constitue mon premier site déployé avec Render et Docker."
+      "description": "Mon premier portfolio personnel, conçu pour se comporter comme une interface de terminal.\n\nRéalisé pendant mon apprentissage de JavaScript, avec un accent sur la manipulation du DOM, les animations et la gestion des entrées utilisateur. Le projet m’a également initié à Docker, au déploiement et à la maintenance d’un projet web personnel."
     },
     "suggestibility": {
       "title": "Application d’étude de la suggestibilité",
-      "description": "Application commandée par un psychologue afin de mettre en place des tests d’évaluation de la suggestibilité chez les enfants.\n Réalisée en groupe de cinq et livrée à temps,\n tout en respectant les contraintes imposées par le client\n ainsi que la législation relative à la confidentialité des données des patients.\n L’application a également été conçue pour être distribuable et modulable,\n afin de permettre à l’utilisateur de modifier les questions ou leur contenu selon ses besoins."
+      "description": "Application commandée par un psychologue pour réaliser des tests évaluant la suggestibilité chez les enfants.\n\nDéveloppée au sein d’une équipe de cinq personnes et livrée conformément aux exigences et au délai du client. L’application a été conçue pour être portable et configurable, afin de permettre à l’utilisateur de modifier les questions et le contenu des tests sans modifier l’application elle-même.\n\nLe projet nous a également demandé de prendre en compte les exigences de confidentialité liées aux informations des patients."
     },
     "codBlast": {
       "title": "Cod'Blast",
-      "description": "Projet de Game Jam réalisé dans le cadre d’un examen final de JavaScript. Créé en groupe de trois, il s’inspire de Block Blast et est déployé sur GitHub Pages."
+      "description": "Projet de Game Jam soumis dans le cadre d’un examen final de JavaScript. Réalisé avec deux autres personnes, il s’inspire de Block Blast et est déployé sur GitHub Pages."
     },
     "email": {
       "title": "CLI d’envoi d’e-mails",
-      "description": "Outil en ligne de commande permettant d’envoyer des e-mails en masse aux utilisateurs enregistrés dans une base de données.\n Entièrement réalisé en C pour des raisons de performance, il a été utilisé pour envoyer les notifications de mise à jour de NotSpot."
+      "description": "Application en ligne de commande écrite en C permettant d’envoyer des e-mails aux utilisateurs enregistrés dans une base de données.\n\nConçue en privilégiant les performances et l’utilisation des ressources, elle utilise libpq pour interagir avec PostgreSQL. Cet outil a été créé pour automatiser l’envoi des e-mails de mise à jour du projet NotSpot."
     }
   },
   "contact": {
     "contact_me": "Me contacter",
-    "text": "Voici quelques moyens de me joindre.",
+    "text": "Voici quelques moyens de me joindre",
     "form-text": "Pour me contacter facilement, veuillez remplir le formulaire ci-dessous.",
     "first_name": "Prénom",
     "last_name": "Nom",
@@ -63,6 +63,6 @@
     "sending": "Envoi en cours…",
     "success_title": "Message envoyé",
     "success_text": "Merci de m’avoir contacté. Je vous répondrai dès que possible.",
-    "socials": "Voici quelques réseaux sociaux sur lesquels vous pouvez me retrouver"
+    "socials": "Voici quelques-uns de mes réseaux sociaux"
   }
 }

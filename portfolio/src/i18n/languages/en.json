@@ -8,38 +8,38 @@
 
   "hero": {
     "title": "Hello, I'm Esteban Quillerier",
-    "subtitle": "Fullstack web developer student."
+    "subtitle": "Fullstack web developer student available for internships and freelance."
   },
 
   "presentation": {
-    "text": "I'm a second year full stack web developer student, based in Orleans France.\n I attend a university based in the city center called Coda. I always strive to get better with the tools I have but also want to learn about new things and constantly improve and become more and more polyvalent.\n Also looking for a internship to help me achieve my goals of progressing and gaining experience in tech, I look forward to working or talking with you."
+    "text": "I'm a second-year full-stack web development student based in Orléans, France.\nI enjoy building applications from backends and databases to user interfaces, and I'm always looking to expand my technical skills.\nI'm currently looking for an internship where I can contribute to projects, learn from experienced developers, and gain professional experience. I'm also open to freelance opportunities and small web development projects."
   },
 
   "about": {
     "about": "About",
-    "about_me": "I'm a second year student at Coda school, I live and study in France but I would enjoy working and living abroad depending on the opportunity.\n I already speak English and French fluently and am working towards improving my Tagalog I'm a big fan of traveling and learning about different cultures as well.\n My hobbies include, programming notably backend development, microcontrollers, painting, 3d modelling, arachnology(Chromatopelma cyaneopubescens my beloved) and traveling.",
+    "about_me": "I'm a second-year full-stack web development student at Coda in Orléans, France. I'm interested in both backend and frontend development and enjoy understanding how the different parts of an application work together.\nI've worked on individual and group projects involving web applications, databases, APIs, desktop applications and command-line tools. I'm comfortable learning new technologies when a project requires them and enjoy working through technical problems to find practical solutions.\nI'm currently looking for an internship where I can gain experience. I'm also interested in freelance opportunities where I can help build or improve web applications.\nOutside of development, I enjoy traveling, learning about different cultures, painting, 3D modelling, microcontrollers and arachnology. I'm also currently working on improving my Tagalog.",
     "tech_stack": "Tech stack",
-    "languages": "Languages",
+    "languages": "Programming languages",
     "frontend": "Frontend",
-    "frameworks": "Frameworks",
-    "database": "Database",
-    "tools_and_environment": "Tools and Environments"
+    "backend": "Backend",
+    "database": "Databases",
+    "tools_and_environment": "Tools & environments"
   },
   "project":{
     "projects": "Projects",
-    "text": "Here are a few of the projects I have worked on over the course of the past year:",
+    "text": "A few of the projects I've worked on during my first year of studies and personal development. These projects cover web development, backend systems, desktop applications, game development and command-line tools.",
 
     "notSpot": {
       "title": "NotSpot",
-      "description": "Online and downloadable streaming service app, relying on community input to grow its musical selection.\nMade as a project for my first year final exam and used to validate my first year."
+      "description": "Music streaming application built as a first-year final project. The application combines a user-facing interface with backend services and a database to manage the platform's music catalogue.\n\nThis project allowed me to work with Dart, Flutter, Java, Spring Boot, PostgreSQL and Docker."
     },
     "terminalPortfolio": {
       "title": "Terminal portfolio",
-      "description": "My first portfolio made with JS to resemble and function like a terminal to dispense information about me.\nMade while learning JavaScript and used to learn more about animations and handling user inputs.\nAlso contains easter eggs, my first deployed website using Render and Docker. "
+      "description": "My first personal portfolio, designed to behave like a terminal interface.\n\nBuilt while learning JavaScript, with a focus on DOM manipulation, animations and user input handling. The project also introduced me to Docker, deployment and maintaining a personal web project."
     },
     "suggestibility": {
       "title": "Suggestibility study application",
-      "description": "App commissioned by a psychologist to set up tests to evaluate suggestibility in children.\nMade with a group of 4 other people and delivered in time.\n And respecting all the constraints imposed by the client,\n and imposed by the law regarding confidential information on patients.\nAlso made portable to distribute and modulable,\n enabling the user to change the test questions or contents to suit their needs."
+      "description": "Application commissioned by a psychologist to conduct tests evaluating suggestibility in children.\n\nDeveloped as part of a five-person team and delivered according to the client's requirements and deadline. The application was designed to be portable and configurable, allowing the user to modify test questions and content without changing the application itself.\n\nThe project also required us to consider confidentiality requirements concerning patient information."
     },
     "codBlast": {
       "title": "Cod'Blast",
@@ -47,7 +47,7 @@
     },
     "email": {
       "title": "Email sender CLI",
-      "description": "CLI made to send out emails in mass to user registered to a database.\n Made entirely in C for speed and used to send updates for NotSpot updates"
+      "description": "Command-line application written in C for sending emails to users stored in a database.\n\nBuilt with performance and resource usage in mind, using libpq to interact with PostgreSQL. The tool was created to automate update emails for the NotSpot project."
     }
   },
   "contact":{

@@ -42,12 +42,12 @@ function MainScreen() {
                         <h4>{t("about.languages")}</h4>
                         <ul>
                             <li>Java</li>
-                            <li>Dart</li>
-                            <li>Kotlin</li>
                             <li>JavaScript</li>
                             <li>C</li>
-                            <li>MicroPython</li>
+                            <li>Dart</li>
+                            <li>Kotlin</li>
                             <li>Bash</li>
+                            <li>MicroPython</li>
                         </ul>
                     </div>
                     <div>
@@ -55,23 +55,23 @@ function MainScreen() {
                         <ul>
                             <li>HTML5</li>
                             <li>CSS3</li>
-                            <li>tailwindCSS</li>
                             <li>React</li>
+                            <li>Tailwind CSS</li>
+                            <li>Vue.js</li>
                         </ul>
                     </div>
                     <div>
-                        <h4>{t("about.frameworks")}</h4>
+                        <h4>{t("about.backend")}</h4>
                         <ul>
-                            <li>Spring boot</li>
+                            <li>Spring Boot</li>
                             <li>Quarkus</li>
-                            <li>Flutter</li>
-                            <li>Vue.js</li>
+                            <li>Node.js</li>
                         </ul>
                     </div>
                     <div>
                         <h4>{t("about.database")}</h4>
                         <ul>
-                            <li>postgreSQL</li>
+                            <li>PostgreSQL</li>
                             <li>MySQL</li>
                             <li>H2</li>
                         </ul>
@@ -80,10 +80,9 @@ function MainScreen() {
                         <h4>{t("about.tools_and_environment")}</h4>
                         <ul>
                             <li>Git</li>
-                            <li>Postman</li>
+                            <li>Docker</li>
                             <li>Linux</li>
-                            <li>Fedora</li>
-                            <li>EndeavourOS</li>
+                            <li>Postman</li>
                         </ul>
                     </div>
                 </div>
@@ -115,7 +114,6 @@ function MainScreen() {
 
 
 export default MainScreen;
-
 
 
 
