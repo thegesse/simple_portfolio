@@ -1,5 +1,6 @@
 import LanguageSwitcher from "../TranslationLogic/LanguageSwitcher.jsx";
 import {useTranslation} from "react-i18next";
+import DarkModeToggle from "../darkMode/DarkModeSwitcher.jsx";
 
 function Navbar() {
     const {t} = useTranslation();
@@ -11,6 +12,7 @@ function Navbar() {
             <a href="#contact">{t("nav.contact")}</a>
 
             <LanguageSwitcher />
+            <DarkModeToggle />
         </nav>
     );
 }
